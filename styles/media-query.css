@@ -8,6 +8,31 @@ Tablet: 768 ate 992px
 Desktop: 992 ate 1200px
 Grandes Telas: acim de 1200px */
 
+@media screen and (max-height: 300px) {
+    body, main {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        height: 150px;        
+    }    
+    
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+
+        background-position: center bottom;
+
+        
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body, main {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
